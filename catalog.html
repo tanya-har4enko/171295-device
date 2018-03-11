@@ -11,7 +11,10 @@
                   <img src="img/logo-header.png" width="163" height="38" alt="Логотип Device">
               </a>
               <div class="search">
-                  <input type="search" name="search" placeholder="Поиск по сайту">
+                  <form action="#" method="get">
+                      <input type="search" name="search" placeholder="Поиск по сайту">
+                      <button type="submit" class="button-search"></button>
+                  </form>
               </div>
               <ul class="user-navigation">
                   <li class="profile"><a href="#">Валентин Петухов</a></li>
@@ -89,8 +92,8 @@
                               <label for="bluetooth-on">Есть</label>
                           </li>
                           <li class="bluetooth">
-                              <input type="radio" name="bluetooth" id="bluetooth-" value="Нет">
-                              <label for="bluetooth-on">Нет</label>
+                              <input type="radio" name="bluetooth" id="bluetooth-off" value="Нет">
+                              <label for="bluetooth-off">Нет</label>
                           </li>
                       </ul>
                   </fieldset>
@@ -143,11 +146,11 @@
                   </li>
               </ul>
               <ul class="pagination-list">
-                  <li><button class="button">Назад</button></li>
-                  <li class="pagination-item pagination-item-current"><button class="button">1</button></li>
-                  <li class="pagination-item"><button class="button">2</button></li>
-                  <li class="pagination-item"><button class="button">3</button></li>
-                  <li><button class="button">Вперед</button></li>
+                  <li><a class="button" href="#">Назад</a></li>
+                  <li class="pagination-item pagination-item-current"><a class="button" href="#">1</a></li>
+                  <li class="pagination-item"><a class="button" href="#">2</a></li>
+                  <li class="pagination-item"><a class="button" href="#">3</a></li>
+                  <li><a class="button" href="#">Вперед</a></li>
               </ul>
           </section>
       </main>
