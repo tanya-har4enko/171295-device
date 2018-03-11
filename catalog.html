@@ -10,8 +10,9 @@
               <a class="main-header-logo" href="index.html">
                   <img src="img/logo-header.png" width="163" height="38" alt="Логотип Device">
               </a>
-              <!-- Форма поиска -->
-                  
+              <div class="search">
+                  <input type="search" name="search" placeholder="Поиск по сайту">
+              </div>
               <ul class="user-navigation">
                   <li class="profile"><a href="#">Валентин Петухов</a></li>
                   <li class="login-link"><a href="#">Выйти</a></li>
@@ -50,8 +51,51 @@
           </ul>
           <section class="filters">
               <h2>Фильтр:</h2>
-              <!-- Форма -->
-              <a class="button" href="#">Показать</a>
+              <form class="filter" method="get" action="#">
+                  <fieldset>
+                      <legend>Стоимость</legend>
+                      <input type="range" name="" id="cost" min="0" max="5000">
+                  </fieldset>
+                  <fieldset>
+                      <legend>Цвет</legend>
+                      <ul>
+                          <li class="filter-colour">
+                              <input type="checkbox" name="colour-black" id="black" checked>
+                              <label for="black">Черный</label>
+                          </li>
+                          <li class="filter-colour">
+                              <input type="checkbox" name="colour-white" id="white">
+                              <label for="white">Белый</label>
+                          </li>
+                          <li class="filter-colour">
+                              <input type="checkbox" name="colour-blue" id="blue" checked>
+                              <label for="blue">Синий</label>
+                          </li>
+                          <li class="filter-colour">
+                              <input type="checkbox" name="colour-red" id="red" checked>
+                              <label for="red">Красный</label>
+                          </li>
+                          <li class="filter-colour">
+                              <input type="checkbox" name="colour-pink" id="black">
+                              <label for="pink">Розовый</label>
+                          </li>
+                      </ul>
+                  </fieldset>
+                  <fieldset>
+                      <legend>Bluetooth</legend>
+                      <ul>
+                          <li class="bluetooth">
+                              <input type="radio" name="bluetooth" id="bluetooth-on" value="Есть" checked>
+                              <label for="bluetooth-on">Есть</label>
+                          </li>
+                          <li class="bluetooth">
+                              <input type="radio" name="bluetooth" id="bluetooth-" value="Нет">
+                              <label for="bluetooth-on">Нет</label>
+                          </li>
+                      </ul>
+                  </fieldset>
+                  <button type="submit" class="filter-button">Показать</button>
+              </form>
           </section>
           <section class="catalog">
               <h2>Сортировка:</h2>
@@ -99,11 +143,11 @@
                   </li>
               </ul>
               <ul class="pagination-list">
-                  <li><a class="button" href="#">Назад</a></li>
-                  <li class="pagination-item pagination-item-current"><a>1</a></li>
+                  <li><button class="button">Назад</button></li>
+                  <li class="pagination-item pagination-item-current"><button class="button">1</button></li>
                   <li class="pagination-item"><a href="#">2</a></li>
-                  <li class="pagination-item"><a href="#">3</a></li>
-                  <li><a class="button" href="#">Вперед</a></li>
+                  <li class="pagination-item"><button class="button">3</button></li>
+                  <li><button class="button">Вперед</button></li>
               </ul>
           </section>
       </main>
