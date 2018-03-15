@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+         url("../fonts/gilroyextrabold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/gilroylight.woff2") format("woff2"),
+         url("../fonts/gilroylight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: Gilroy, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #000000;
+        
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button,
+.button-write-us,
+.filter-button {
+    font: inherit;
+    
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+    border: none;
+}
+
+.button:hover,
+.button-write-us:hover,
+.filter-button:hover,
+.button:focus,
+.button-write-us:focus, 
+.filter-button:focus {
+    background-color: #f0c52e;
+}
+
+.button:active {
+    background-color: #f0c52e;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation {
+    background-color: #f7e296;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-navigation a:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main-navigation a:focus {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-navigation,
+.sale-menu {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.catalog,
+.delivery,
+.guarantee,
+.contacts {
+    text-transform: uppercase;
+}
+
+.catalog .catalog-item1,
+.catalog .catalog-item2,
+.catalog .catalog-item3 a {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.promo h3 {
+    font-size: 47px;
+    line-height: 56px;
+}
+
+.promo p,
+.services-descriptions p,
+.about-us p,
+.our-contacts p {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #464646;
+}
+
+th {
+    font-family: Gilroy, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+}
+
+td {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #464646;
+}
+
+.services {
+    background-color: #e5e5e5;
+}
+
+.services-descriptions h3,
+.about-us h3,
+.our-contacts h3 {
+    font-size: 47px;
+    line-height: 48px;
+}
+
+.company-list {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.main-footer {
+    background-color: #464646;
+    color: #ffffff;
+}
+
+.main-footer li,
+.main-footer a, 
+.main-footer p {
+    color: #ffffff;
+}
+
+.footer-phone,
+.footer-address {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.footer-menu,
+.footer-social {
+    text-align: center;
+}
+
+.main-monopods {
+    font-size: 47px;
+    line-height: 48px;
+}
+
+.breadcrumbs,
+.breadcrumbs-current{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 300; 
+}
+
+.catalog-monopods h2,
+.filters h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.filters {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.filters fieldset {
+    border: none;
+}
+
+input:hover + label,
+input:focus + label {
+  color: #000000;
+}
+
+input:disabled + label {
+  color: #a6a6a6;
+}
+   
+
+.sorting-list .sorting-item {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.sorting-list .sorting-item-current {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.catalog-monopods span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.filter-colour,
+.bluetooth {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.catalog-item-price {
+    font-size: 16px;
+    color: #464646;
+}
+    
+.catalog-item .button-compare {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
